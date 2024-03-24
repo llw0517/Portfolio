@@ -1,0 +1,25 @@
+.contacts {
+    display: grid;
+    padding-top: 10px;
+    grid-template-rows: 75px 75px 75px 75px;
+    margin: auto;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.contact-type {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon {
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.contact-info {
+    margin-left: 10px;
+}
